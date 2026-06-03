@@ -5,17 +5,12 @@ body{
     justify-content: center;
 }
 .keyBoard{
-    width: 80%;
-    transform: translate(0px, 160px);
-    background-color: cornsilk;
+    width: 65%;
+    transform: translate(0px, 140px);
+    background-color: rgb(231,206, 181);
     border: solid black;
     border-width: 5px;
     padding: 5px;
-}
-.rowPrime{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 .rowPrime * {
     width: 50px;
@@ -23,103 +18,35 @@ body{
     border: solid black;
     padding: 5px;
     margin: 1px;
-    background-color: rgb(38, 36, 36);
+    margin-bottom: 5px;
+    background-color: rgb(85, 40, 30);
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.row0{
+.rowPrime, .row0, .row1, .row2, .row3, .row4{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.row0 * {
+.row0 *, .row1 *, .row2 *, .row3 *, .row4 * {
     width: 50px;
     height: 50px;
     border: solid black;
     padding: 5px;
     margin: 1px;
-    background-color: rgb(38, 36, 36);
+    margin-bottom: 5px;
+    background-color: rgb(85, 40, 30);
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.row1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.row1 * {
-    width: 50px;
-    height: 50px;
-    border: solid black;
-    padding: 5px;
-    margin: 1px;
-    background-color: rgb(38, 36, 36);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-.row2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 .row2 * {
-    width: 50px;
-    height: 50px;
-    border: solid black;
-    padding: 5px;
-    margin: 1px;
-    background-color: rgb(38, 36, 36);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.row3{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.row3 * {
-    width: 50px;
-    height: 50px;
-    border: solid black;
-    padding: 5px;
-    margin: 1px;
-    background-color: rgb(38, 36, 36);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.row4{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.row4 * {
-    width: 50px;
-    height: 50px;
-    border: solid black;
-    padding: 5px;
-    margin: 1px;
-    background-color: rgb(38, 36, 36);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 1px;
 }
 #§{
     width: 35px;
@@ -131,8 +58,15 @@ body{
     width: 70px;
 }
 #enterBottom{
-    transform: translate(0px, -5px);
-    height: 50px;
+    transform: translate(0px, -9px);
+    height: 57px;
+    border-top: 0px;
+}
+#pgDn{
+    transform: translate(0px, 0px);
+}
+#rightShift{
+    width: 160px;
 }
 #space{
     height: 50px;
@@ -149,10 +83,14 @@ body{
     width: 65px;
 }
 #pilTangentNer{
-    height: 15px;
-    width: 65px;
-    transform: translate(-82px, 35px);
-}
-#pilTangentHöger{
-    transform: translate(-81px,0px);
+    height: 25px;
+    width: 70px;
+    border: solid black;
+    background-color: rgb(85, 40, 30);
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(849px, -35px);
 }
