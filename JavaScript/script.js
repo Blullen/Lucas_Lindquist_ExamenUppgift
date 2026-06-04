@@ -2,8 +2,6 @@ let isCtrlPressed = false;
 
 document.addEventListener("keydown", (event) => {
 
-    console.log(event.code);
-
 if(event.code){
     if(event.code == "Enter"){
         document.getElementById("enterBottom").style = "background-color:pink";
@@ -27,8 +25,6 @@ if(event.code){
 }
 });
 document.addEventListener("keyup", (event) => {
-
-    console.log(event.key);
 
 if(event.code){
     if(event.code == "Enter"){
