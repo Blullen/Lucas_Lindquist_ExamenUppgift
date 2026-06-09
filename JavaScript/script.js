@@ -21,6 +21,16 @@ if(event.code){
         document.getElementById("AltRight").style = "background-color:pink";
         return;
     }
+    if (event.code === "KeyM") {
+        const img = document.getElementById("fortniteSeason3Map");
+
+        if (img.style.display === "none") {
+            img.style.display = "block";
+        } else {
+            img.style.display = "none";
+        }
+    }
+
     document.getElementById(event.code).style = "background-color:pink";
 }
 });
